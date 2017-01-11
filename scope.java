@@ -7,5 +7,9 @@ class scope {
     }
     //System.out.println("x and y are" + x + " " + y); *This won't work *
     System.out.println("x and y are " + x + " ");
+    ma();
+  }
+  public static void ma(){
+    System.out.println("Second x and y are " + x + " " + y);
   }
 }
